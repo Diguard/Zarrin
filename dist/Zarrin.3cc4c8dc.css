@@ -7,10 +7,6 @@ body {
   line-height: 1.2;
 }
 
-body.no-scroll {
-  overflow: hidden;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -28,8 +24,9 @@ img {
   display: block;
 }
 
-body {
-  text-align: center;
-  background-color: #add8e6;
+.header {
+  background-color: #7c4ee4;
+  height: 75px;
+  padding: 0 24px;
 }
 /*# sourceMappingURL=Zarrin.3cc4c8dc.css.map */

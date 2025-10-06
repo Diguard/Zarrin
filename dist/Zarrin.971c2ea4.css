@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo {
+  align-items: center;
+  gap: 11px;
+  width: 112px;
+  height: 31px;
+  display: flex;
+}
+
+.logo__text {
+  color: #333;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.logo__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.header {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  padding: 0 24px;
+  display: flex;
+}
+
+.header-container {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.mobile-menu {
+  background-color: #fff;
+  border: 0;
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (width >= 376px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Zarrin.971c2ea4.css.map */
