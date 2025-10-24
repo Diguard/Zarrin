@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Diguard/Zarrin/issues"
   },
-  "homepage": "https://github.com/Diguard/Zarrin#readme",
+  "homepage": "https://diguard.github.io/Zarrin/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0",
     "parcel": "^2.16.0",
