@@ -1,0 +1,1 @@
+{"mappings":"ACAA,QAAQ,GAAG,CAAC","sources":["<anon>","src/app.js"],"sourcesContent":["console.log(\"\\u041F\\u0440\\u0438\\u0432\\u0435\\u0442 \\u0438\\u0437 JavaScript!\");\n\n//# sourceMappingURL=Zarrin.66dfd84d.js.map\n","console.log('Привет из JavaScript!');"],"names":["console","log"],"version":3,"file":"Zarrin.66dfd84d.js.map"}
