@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --dist-dir dist --public-url /repo-name/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://diguard.github.io/Zarrin/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.0",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.0",
     "posthtml": "^0.16.6",
     "posthtml-include": "^2.0.1",
