@@ -115,6 +115,16 @@
       height: 22px;
     }
   }
+
+  &__btn-icon {
+    width: 16px;
+    height: 16px;
+
+    @media screen and (min-width: $desktop) {
+      width: 22px;
+      height: 22px;
+    }
+  }
 }
 
 .mobile-menu {
